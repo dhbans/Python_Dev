@@ -20,9 +20,14 @@ for item in ip_list:
     print(ip_oct)
     (' ').join(ip_oct)
 
+"""
+string.replace(new_Str, old_str, count_nO)
+
+
+"""
 
 string1 = "this is check of replace function and result"
 
 string2 = string1.replace('and', '&')
 
-print('String after replacement \n{}'.format(string2))
+print('String after replacement \n{string_new}'.format(string_new=string2))
