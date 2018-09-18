@@ -41,3 +41,5 @@ tuple1 = ('a', 'a', 'c', 1, 2, 3, 4, 5, 1, 1, 2, 2)
 print(tuple1.count('z'))
 print(tuple1.count('m'))
 print(tuple1.index('m',0,2))
+
+
