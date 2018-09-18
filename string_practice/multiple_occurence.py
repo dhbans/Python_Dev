@@ -6,12 +6,12 @@ string2 = input('enter the sub_String value: ')
 flag = False
 index = 0
 while index <= len(string1):
-    result = string1.find(string2, index ,len(string1))
+    result = string1.find(string2, index, len(string1))
     if result != -1:
-        print('string is found at ', result,result+len(string2))
+        print('string is found at ', result, result+len(string2))
         position = result + 1
         index = position
-        flag = False
+        flag = True
     else:
         index += 1
 if flag == 0:
